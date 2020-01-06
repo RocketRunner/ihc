@@ -1,0 +1,1 @@
+java -cp lib/clients.jar:lib/jnlp.jar:lib/resources.jar:lib/xercesimpl.jar:lib/xml-apis.jar com.schneider.utcsclient.treeview.MainEntryPoint LK da DK

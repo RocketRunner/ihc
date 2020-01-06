@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.5" codebase="http://192.168.1.51:8080" href="jws/scenedesign.jnlp">
+   <information>
+      <title>LK IHC SceneDesign</title>
+      <vendor>Lauritz Knudsen</vendor>
+      <homepage href="http://www.lk.dk"/>
+      <icon kind="default" href="http://192.168.1.51:8080/images/icon_main_LK.gif"/>
+      <icon kind="splash" depth="24" href="http://192.168.1.51:8080/images/splash2_LK.jpg"/>
+      <offline-allowed/>
+   </information>
+   <security>
+     <all-permissions/>
+   </security>
+   <resources>
+   <j2se max-heap-size="512m" version="1.5+"/>
+      <jar href="jws/clients.jar" main="true" version="2.7.220"/>
+      <jar href="jws/resources.jar" version="2.7.220"/>
+      <jar href="jws/jnlp.jar" version="2.7.220"/>
+      <jar href="jws/xercesImpl.jar" version="2.7.220"/>
+      <jar href="jws/xml-apis.jar" version="2.7.220"/>
+   </resources>
+   <application-desc main-class="com.schneider.utcsclient.scenedesign.MainEntryPoint">
+     <argument>LK</argument>
+     <argument>da</argument>
+     <argument>DK</argument> 
+     <argument>https://192.168.1.51</argument> 
+   </application-desc>
+</jnlp>
